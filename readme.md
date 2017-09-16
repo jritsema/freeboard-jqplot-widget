@@ -3,7 +3,7 @@ freeboard-jqplot-widget
 
 A starter template for building freeboard widgets using the [jqplot plugin](https://github.com/jritsema/freeboard-jqplot).
 
-This gives you a nice development workflow by allowing you to implement your widget using files (view.html, model.js, helpers.js), saving your files, and then refreshing your browser to immediately see your changes (assuming you have script to have freeboard load your dashboard.json) or you can manually re-load your dashboard.
+This gives you a nice development workflow by allowing you to implement your widget using files (data.js, chart-options.js, chart-settings.json), saving your files, and then refreshing your browser to immediately see your changes (assuming you have script to have freeboard load your dashboard.json) or you can manually re-load your dashboard.
 
 Includes predefined npm scripts for updating freeboard dashboard.json (using [freeboard-jqplot-buildtool](https://github.com/jritsema/freeboard-jqplot-buildtool)) when files are saved.
 
