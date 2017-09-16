@@ -1,0 +1,19 @@
+{
+  "name": "freeboard-jqplot-widget",
+  "version": "0.1.0",
+  "description": "A starter template for building freeboard widgets using the jqplot plugin.",
+  "scripts": {
+    "build": "cat dashboard.json | freeboard-jqplot-buildtool > temp && cp temp dashboard.json && rm temp",
+    "watch": "nodemon --exec npm run build --watch view.html --watch model.js --watch helpers.js"
+  },
+  "author": "jritsema",
+  "license": "MIT",
+  "devDependencies": {
+    "freeboard-jqplot-buildtool": "^1.1.0",
+    "nodemon": "^1.3.7"
+  },
+  "keywords": [
+    "freeboard",
+    "jqplot"
+  ]
+}
