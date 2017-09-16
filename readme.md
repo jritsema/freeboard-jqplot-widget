@@ -33,9 +33,10 @@ Note that the target widget defined in dashboard.json needs to have a "title" pr
     "type": "jqplotWidget",
     "settings": {
       "height": 3,
-      "model": "",
-      "view": "",
-      "helpers": ""
+      "data": "",
+      "options": "",
+      "chartHeight": 300,
+      "chartWidth": 600
     }
   }
 ]
